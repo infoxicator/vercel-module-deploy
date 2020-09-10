@@ -7,7 +7,7 @@ const bundleIntegrity = require('../bundle.integrity.manifest.json');
 
 const moduleMapUrl = 'https://example-module-map.vercel.app'; // This is the module map URL you got in the previous step
 
-const STATIC_ASSETS_URL = 'https://production-module.vercel.app'; // example 'https://my-module.now.sh'
+const STATIC_ASSETS_URL = 'https://holocron-vercel-example.vercel.app'; // example 'https://my-module.now.sh'
 
 const updateModuleMap = async () => {
   try {

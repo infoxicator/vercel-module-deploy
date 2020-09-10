@@ -32,7 +32,7 @@ jobs:
       env:
         NODE_ENV: production
     - name: 'Deploy'
-      run: vercel build --prod --confirm -t $VERCEL_TOKEN
+      run: vercel build --prod --confirm -t $VERCEL_TOKEN --name holocron-vercel-example
       env:
         VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     - name: 'Update Module Map'
