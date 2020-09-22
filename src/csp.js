@@ -21,6 +21,7 @@ export default contentSecurityPolicyBuilder({
     ],
     connectSrc: [
       "'self'",
+      '*.vercel.app',
     ],
   },
 });
